@@ -50,10 +50,10 @@ function FavoriteRecipes() {
 
   const copyRecipe = ({ target }) => {
     if (target.name === 'food') {
-      copy(`http://apprecipedihrey.netlify.app/foods/${target.id}`);
+      copy(`https://apprecipedihrey.netlify.app/foods/${target.id}`);
       target.parentNode.innerHTML = 'Link copied!';
     } else if (target.name === 'drink') {
-      copy(`http://apprecipedihrey.netlify.app/drinks/${target.id}`);
+      copy(`https://apprecipedihrey.netlify.app/drinks/${target.id}`);
       target.parentNode.innerHTML = 'Link copied!';
     }
   };

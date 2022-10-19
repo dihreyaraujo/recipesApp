@@ -103,7 +103,7 @@ function RecipeDetails(props) {
   };
 
   const btnCopyLink = () => {
-    copy(`http://appreceitasdihrey.netlify.app/${history.location.pathname}`);
+    copy(`https://apprecipedihrey.netlify.app/${history.location.pathname}`);
     setLinkCopied('Link copied!');
   };
 
