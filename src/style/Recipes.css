@@ -1,0 +1,10 @@
+.all-btn, .search-btn {
+  background-color: rgb(165, 164, 164);
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 110px;
+}

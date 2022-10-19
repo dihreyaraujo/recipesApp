@@ -1,0 +1,18 @@
+/* .card-img {
+  border-radius: 10px;
+} */
+
+.name-img-card {
+  align-items: center;
+  box-shadow: 5px 5px 5px rgb(165, 164, 164);
+  display: inline-block;
+  margin: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 150px;
+  word-wrap: break-word;
+}
+
+.food-name {
+  color: black;
+}

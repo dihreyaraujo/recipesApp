@@ -1,0 +1,47 @@
+.container-favorite-recipe {
+  align-items: center;
+  box-shadow: 5px 5px 5px rgb(165, 164, 164);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.container-favorite-recipe button {
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.filter-favorite button {
+  border: none;
+  cursor: pointer;
+  height: 25px;
+  transition: 0.4s;
+  width: 60px;
+}
+
+.filter-favorite button:hover {
+  background-color: rgb(78, 78, 78);
+  color: white;
+}
+
+.container-favorite-recipe button:hover {
+  background-color: rgb(14, 204, 14);
+}
+
+.link-recipe {
+  color: black;
+  text-decoration: none;
+}
+
+.filter-favorite {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 60%;
+}

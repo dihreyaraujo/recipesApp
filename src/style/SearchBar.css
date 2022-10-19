@@ -1,0 +1,40 @@
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.input {
+  width: 100%;
+}
+
+@media screen and ( min-width : 1000px ) {
+
+  .search-bar {
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 340px;
+  }
+
+  .inputs-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .inputs-container button {
+    background-color: rgb(174, 174, 174);
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    transition: 0.4s;
+  }
+
+  .inputs-container button:hover {
+    background-color: rgb(3, 201, 3);
+    color: white;
+  }
+}

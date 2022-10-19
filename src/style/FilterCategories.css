@@ -1,0 +1,9 @@
+.name-img-card {
+  box-shadow: 5px 5px 5px rgb(165, 164, 164);
+  color: black;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+  word-wrap: break-word;
+}
